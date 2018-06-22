@@ -37,7 +37,7 @@
     <hr />
 
     <div th:fragment="jobs-list">
-        <div th:if="${jobs} and ${jobs.size()}">
+        <div th:if="${jobs}">
 
             <h3 th:text="${jobs.size() + ' Result(s)'}"></h3>
 
